@@ -5,8 +5,9 @@ const db = require("../models");
 
 mongoose.connect(
   process.env.MONGODB_URI ||
-  "mongodb://localhost/reactreadinglist"
+  "mongodb://user:2Bon2B?@ds345587.mlab.com:45587/heroku_pgpf81lk"
 );
+//"mongodb://localhost/reactreadinglist" on local 
 
 const bookSeed = [
   {
